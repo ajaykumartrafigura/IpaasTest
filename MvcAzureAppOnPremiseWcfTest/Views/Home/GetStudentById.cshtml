@@ -1,0 +1,28 @@
+﻿@model MvcAzureAppOnPremiseWcfTest.Models.Student
+
+@{
+    ViewBag.Title = "GetStudentById";
+}
+
+<h2>GetStudentById</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+    <table>
+        <tr>
+            <td>Student Id</td>
+            <td>@Model.StudentId</td>
+        </tr>
+        <tr>
+            <td>Student Name</td>
+            <td>@Model.StudentName</td>
+        </tr>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

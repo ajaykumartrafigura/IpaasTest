@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="777d72f9-baae-43dc-8979-83d003de89bb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:7178/StudentService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="StudentService.xsd" MetadataType="Schema" ID="70e9ef3f-f7e4-4568-9d23-08048be92c51" SourceId="1" SourceUrl="http://onactuate0084:7178/StudentService.svc?xsd=xsd1" />
+    <MetadataFile FileName="StudentManager.wsdl" MetadataType="Wsdl" ID="db686925-29c7-4075-8420-cb19bb19cfee" SourceId="1" SourceUrl="http://onactuate0084:7178/StudentService.svc?wsdl" />
+    <MetadataFile FileName="StudentService1.xsd" MetadataType="Schema" ID="c8b451c0-9ce1-40c6-ad0e-e8d68d571851" SourceId="1" SourceUrl="http://onactuate0084:7178/StudentService.svc?xsd=xsd0" />
+    <MetadataFile FileName="StudentService.disco" MetadataType="Disco" ID="6b73ae8e-4c63-46d4-be06-422c5dabca58" SourceId="1" SourceUrl="http://onactuate0084:7178/StudentService.svc?disco" />
+    <MetadataFile FileName="StudentService2.xsd" MetadataType="Schema" ID="4a80c92d-cf63-4d4c-a31d-421e496e2129" SourceId="1" SourceUrl="http://onactuate0084:7178/StudentService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
